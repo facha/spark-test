@@ -1,7 +1,7 @@
 import org.apache.spark._
 import org.apache.spark.SparkContext._
 
-object Dfadeyev {
+object SparkSqlTest{
     def main(args: Array[String]) {
       val conf = new SparkConf().setAppName("wordCount")
       val sc = new SparkContext(conf)
